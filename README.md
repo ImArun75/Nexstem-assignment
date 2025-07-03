@@ -40,7 +40,7 @@ npm run build
 - **React + Vite** – Frontend framework & fast build system
 - **React Flow** – Graph rendering & interaction
 - **Dagre** – Auto-layout engine for DAGs
-- **Bootstrap** – For styling controls (optional)
+- **Bootstrap** – For styling controls
 
 ---
 
@@ -56,7 +56,7 @@ pipeline-editor/
 │ │ ├── layout.js // Dagre layout logic
 │ │ └── validation.js // DAG validation rules
 │ ├── App.js // Main application logic
-│ └── main.jsx // Entry point
+│ └── main.jsx 
 ├── public/
 └── README.md
 
