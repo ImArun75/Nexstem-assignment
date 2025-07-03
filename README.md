@@ -12,7 +12,6 @@ Live Demo: [🌐 View on Netlify](https://nexstem-assignment.netlify.app/)
 
 # 1. Clone the repository
 git clone git-repo
-cd pipeline-editor
 
 # 2. Install dependencies
 npm install
