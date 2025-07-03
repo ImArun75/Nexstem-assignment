@@ -3,7 +3,7 @@
 An interactive, visually-driven **Directed Acyclic Graph (DAG) editor** built in React. Simulates the creation of real-time data pipelines and workflows using draggable, connectable nodes.
 
 Live Demo: [🌐 View on Netlify](https://nexstem-assignment.netlify.app/)  
-*(https://nexstem-assignment.netlify.app/)*
+
 
 
 ---
@@ -66,35 +66,38 @@ All nodes connected
 Auto-layout uses dagre.layout() to compute X/Y positioning.
 
 ---
-
-
 ## 📸 Screenshots
 
+- **Control Panel with Action Buttons & DAG Status**
+  
+  <img width="383" alt="controlPannelImg" src="https://github.com/user-attachments/assets/a7e2683a-66db-4d8b-85e8-7bb7281e10a5" />
 
-->Control Pannel Container with Control Buttons & Status of Nodes CAD
-<img width="383" alt="controlPannelImg" src="https://github.com/user-attachments/assets/a7e2683a-66db-4d8b-85e8-7bb7281e10a5" />
+- **Node Label Prompt (User Input Dialog)**
+  
+  <img width="428" alt="NodeLableImg" src="https://github.com/user-attachments/assets/eb3d8701-5b77-4f58-a2b9-f7be41367c9f" />
 
-->Label user input
-<img width="428" alt="NodeLableImg" src="https://github.com/user-attachments/assets/eb3d8701-5b77-4f58-a2b9-f7be41367c9f" />
+- **Minimum Nodes Required (≥ 2 Nodes)**
+  
+  <img width="867" alt="Atleast2NodesImg" src="https://github.com/user-attachments/assets/3434eba7-b764-4e82-b743-b9a655d93ba0" />
 
+- **Cycle Detection (With vs Without Cycle)**
 
+  <table>
+    <tr>
+      <td align="center">
+        <strong>❌ With Cycle</strong><br/>
+        <img width="943" alt="WithCycleImg" src="https://github.com/user-attachments/assets/da51843a-5afa-4c21-8834-98a3c89b6207" />
+      </td>
+      <td align="center">
+        <strong>✅ Without Cycle</strong><br/>
+        <img width="948" alt="WithoutCycleImg" src="https://github.com/user-attachments/assets/55d5ae28-72dc-4d9e-ad6f-dbb1bbcd94e5" />
+      </td>
+    </tr>
+  </table>
 
--> Atleast Nodes Visual
-<img width="867" alt="Atleast2NodesImg" src="https://github.com/user-attachments/assets/3434eba7-b764-4e82-b743-b9a655d93ba0" />
-
-->Nodes with Cycle & withoud Cycle
-<table>
-  <tr>
-    <td><img width="943" alt="WithCycleImg" src="https://github.com/user-attachments/assets/da51843a-5afa-4c21-8834-98a3c89b6207" />
-</td>
-    <td><img width="948" alt="WithoutCycleImg" src="https://github.com/user-attachments/assets/55d5ae28-72dc-4d9e-ad6f-dbb1bbcd94e5" />
-</td>
-    
-  </tr>
-</table>
-
-->All nodes are connected to at least one edge
-<img width="938" alt="singleEdgeMultipleNodesImg" src="https://github.com/user-attachments/assets/de74e75b-1d64-4264-b5ed-3a14ff0273e2" />
+- **All Nodes Connected to At Least One Edge**
+  
+  <img width="938" alt="singleEdgeMultipleNodesImg" src="https://github.com/user-attachments/assets/de74e75b-1d64-4264-b5ed-3a14ff0273e2" />
 
 ---
 
