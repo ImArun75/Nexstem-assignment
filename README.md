@@ -2,7 +2,8 @@
 
 An interactive, visually-driven **Directed Acyclic Graph (DAG) editor** built in React. Simulates the creation of real-time data pipelines and workflows using draggable, connectable nodes.
 
-Live Demo: [🌐 View on Netlify]([https://your-netlify-site.netlify.app](https://nexstem-assignment.netlify.app/))  
+Live Demo: [🌐 View on Netlify](https://nexstem-assignment.netlify.app/)  
+*(https://nexstem-assignment.netlify.app/)*
 
 
 ---
@@ -41,25 +42,6 @@ npm run build
 - **React Flow** – Graph rendering & interaction
 - **Dagre** – Auto-layout engine for DAGs
 - **Bootstrap** – For styling controls
-
----
-
-## 📂 Project Structure
-
-pipeline-editor/
-├── src/
-│ ├── components/
-│ │ ├── CustomNode.js // Node UI with handles
-│ │ ├── ControlsPanel.js // Add/Delete/Layout/Status controls
-│ │ └── JSONPreview.js // Live state viewer
-│ ├── utils/
-│ │ ├── layout.js // Dagre layout logic
-│ │ └── validation.js // DAG validation rules
-│ ├── App.js // Main application logic
-│ └── main.jsx 
-├── public/
-└── README.md
-
 
 ---
 
